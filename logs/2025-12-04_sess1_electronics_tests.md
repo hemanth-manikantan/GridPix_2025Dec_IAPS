@@ -16,3 +16,6 @@
 #Scans
 - Equalization W15-G6_equal-Bonn.h5 (from Markus?)
 - Mask W15-G6_mask-Bonn.h5 (from Markus?)
+- DAC settings in ../images/Gridpix_006_2025-12-04 15-00-25.png
+- A noise scan between THL 1390 and 1600 shows noise cut close to THL 1550 ../plots/NoiseScan_2025-12-04_14-41-45.pdf
+- Threshols scan to find THL to electron conversion
