@@ -11,11 +11,14 @@
 #Setup
 - FEC to GridPix connection made
 - FEC switched on (Verified LEDs first Red, Red+Green after LV on)
-- Idle measured V/I : Comm 3.3V/0.218A, VDDA 1.523V/0.445A, VDDD 1.521V/0.099A
+- Idle measured V/I : Comm 3.3V/0.218A, VDDA 1.523V/0.445A, VDDD 1.521V/0.099A (Recommended currents VDDA/D 50-90/300-500 mA, 300-500 mA)
 
 #Scans
 - Equalization W15-G6_equal-Bonn.h5 (from Markus?)
 - Mask W15-G6_mask-Bonn.h5 (from Markus?)
 - DAC settings in ../images/Gridpix_006_2025-12-04 15-00-25.png
 - A noise scan between THL 1390 and 1600 shows noise cut close to THL 1550 ../plots/NoiseScan_2025-12-04_14-41-45.pdf
-- Threshols scan to find THL to electron conversion
+- 15:06 hrs Threshold Calibration to find THL to electron conversion. 16 ith, 100 tp, 4 data points
+- 18:28 hrs During the THL scan : 3.3V/0.219A, 1.523/0.077A, 1.521/0.210A [VDDA,VDDD currents flip!]
+- 19:32 THL Calibration finish. Results: THL = (1289.839 ± 3.034) + (0.078 ± 0.001)*Ne; Ne is the number of electrons. This means threshold at noise cut of 1550 is (1550-1290)/0.078 = 3333 e. Too high!
+- 
