@@ -20,5 +20,5 @@
 - A noise scan between THL 1390 and 1600 shows noise cut close to THL 1550 ../plots/NoiseScan_2025-12-04_14-41-45.pdf
 - 15:06 hrs Threshold Calibration to find THL to electron conversion. 16 ith, 100 tp, 4 data points
 - 18:28 hrs During the THL scan : 3.3V/0.219A, 1.523/0.077A, 1.521/0.210A [VDDA,VDDD currents flip!]
-- 19:32 THL Calibration finish. Results: THL = (1289.839 ± 3.034) + (0.078 ± 0.001)*Ne; Ne is the number of electrons. This means threshold at noise cut of 1550 is (1550-1290)/0.078 = 3333 e. Too high!
+- 19:32 THL Calibration finish. Results: THL = (1289.839 ± 3.034) + (0.078 ± 0.001)*Ne; Ne is the number of electrons. This means threshold at noise cut of 1550 is (1550-1290)/0.078 = 3333 e. ../plots/ThresholdCalib_2025-12-04_15-06-15.pdf. Too high!
 - 
