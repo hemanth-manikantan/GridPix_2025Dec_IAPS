@@ -8,7 +8,11 @@
 - New port : 1-Comm 2-VDDA 3-VDDD
 - Saved as State2 Auto recall in Keysight power supply
 
-#Actions
+#Setup
 - FEC to GridPix connection made
 - FEC switched on (Verified LEDs first Red, Red+Green after LV on)
 - Idle measured V/I : Comm 3.3V/0.218A, VDDA 1.523V/0.445A, VDDD 1.521V/0.099A
+
+#Scans
+- Equalization W15-G6_equal-Bonn.h5 (from Markus?)
+- Mask W15-G6_mask-Bonn.h5 (from Markus?)
