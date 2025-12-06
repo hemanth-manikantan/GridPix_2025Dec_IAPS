@@ -1,0 +1,11 @@
+# requirements.txt
+jupyter-book>=0.15
+matplotlib
+numpy
+pandas
+scipy
+seaborn
+ipykernel
+nbformat
+plotly
+# Packages you actually use in .ipynb s
