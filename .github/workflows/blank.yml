@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,11 +21,27 @@ jobs:
 
       - name: Install dependencies
         run: |
+          # install essentials; extend with requirements.txt if you have one
+          pip install --upgrade pip
           pip install jupyter nbconvert
+
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
 
       - name: Execute notebooks in scripts/
         run: |
+          # Fail if no notebooks found to avoid false positives
+          notebooks=(scripts/*.ipynb)
+          if [ "${notebooks[0]}" = "scripts/*.ipynb" ]; then
+            echo "No notebooks found in scripts/. Nothing to run."
+            exit 1
+          fi
+
+          # Execute each notebook; set a generous timeout
           for nb in scripts/*.ipynb; do
-            echo "Running ${nb}..."
-            jupyter nbconvert --to notebook --execute "$nb" --output /dev/null
+            echo "Running ${nb} ..."
+            jupyter nbconvert --to notebook --execute "$nb" \
+              --ExecutePreprocessor.timeout=600 \
+              --output "${nb%.ipynb}.executed.ipynb"
           done
