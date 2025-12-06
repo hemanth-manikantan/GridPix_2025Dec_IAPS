@@ -8,6 +8,7 @@ on:
       - 'scripts/**/*.ipynb'
       - 'requirements.txt'
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
