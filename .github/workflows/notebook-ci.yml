@@ -1,4 +1,5 @@
-# .github/workflows/blank.yml
+# .github/workflows/notebook-ci.yml
+#tests listed .ipynb s runs without errors
 name: Test Jupyter Notebooks
 
 on:

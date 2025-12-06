@@ -1,4 +1,5 @@
 # .github/workflows/deploy-book.yml
+# Run .ipynb and publish it
 name: Deploy Jupyter Book
 
 on:
