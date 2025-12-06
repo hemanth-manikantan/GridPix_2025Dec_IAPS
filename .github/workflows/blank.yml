@@ -1,58 +1,36 @@
-# This is a basic workflow to help you get started with Actions
+# .github/workflows/blank.yml
 
-name: blank
+name: Test Jupyter Notebooks
 
-# Trigger on pushes to main or master
 on:
   push:
-    branches:
-      - main
-      - master
+    paths:
+      - 'scripts/**/*.ipynb'
+      - 'requirements.txt'
+      - 'environment.yml'
+  pull_request:
+    paths:
+      - 'scripts/**/*.ipynb'
+      - 'requirements.txt'
+      - 'environment.yml'
 
 jobs:
-  deploy-book:
+  notebook-test:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-
     steps:
-      # 1. Checkout repo
-      - name: Checkout repository
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
-      # 2. Setup Python
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: pip
+          python-version: '3.11'
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install nbmake pytest
 
-      # 4. Cache executed notebooks (optional)
-      - name: Cache executed notebooks
-        uses: actions/cache@v4
-        with:
-          path: _build/.jupyter_cache
-          key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
-
-      # 5. Build the Jupyter Book
-      - name: Build the book
+      - name: Run notebook tests with nbmake
         run: |
-          jupyter-book build . --keep-going
-
-      # 6. Upload HTML artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: _build/html
-
-      # 7. Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          pytest --nbmake --nbmake-timeout=600 scripts/
