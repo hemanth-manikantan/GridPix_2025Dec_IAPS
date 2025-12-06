@@ -1,5 +1,5 @@
 # GridPix Detector W15-G6 Operations Log — 2025 December @ IAPS
-![CI Status](https://github.com/git@github.com:hemanth-manikantan/GridPix_2025Dec_IAPS/.github/workflows/blank.yml)
+![CI Status](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/tree/main/.github/workflows/blank.yml)
 
 Online logbook for the detector operations. Click any entry under **Logs** to read the details.
 
