@@ -1,47 +1,58 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Notebook Check
+name: blank
 
+# Trigger on pushes to main or master
 on:
   push:
-  pull_request:
+    branches:
+      - main
+      - master
 
 jobs:
-  run-notebooks:
+  deploy-book:
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
 
     steps:
+      # 1. Checkout repo
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
+      # 2. Setup Python
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+          cache: pip
 
+      # 3. Install dependencies
       - name: Install dependencies
         run: |
-          # install essentials; extend with requirements.txt if you have one
           pip install --upgrade pip
-          pip install jupyter nbconvert
+          pip install -r requirements.txt
 
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+      # 4. Cache executed notebooks (optional)
+      - name: Cache executed notebooks
+        uses: actions/cache@v4
+        with:
+          path: _build/.jupyter_cache
+          key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
-      - name: Execute notebooks in scripts/
+      # 5. Build the Jupyter Book
+      - name: Build the book
         run: |
-          # Fail if no notebooks found to avoid false positives
-          notebooks=(scripts/*.ipynb)
-          if [ "${notebooks[0]}" = "scripts/*.ipynb" ]; then
-            echo "No notebooks found in scripts/. Nothing to run."
-            exit 1
-          fi
+          jupyter-book build . --keep-going
 
-          # Execute each notebook; set a generous timeout
-          for nb in scripts/*.ipynb; do
-            echo "Running ${nb} ..."
-            jupyter nbconvert --to notebook --execute "$nb" \
-              --ExecutePreprocessor.timeout=600 \
-              --output "${nb%.ipynb}.executed.ipynb"
-          done
+      # 6. Upload HTML artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _build/html
+
+      # 7. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
