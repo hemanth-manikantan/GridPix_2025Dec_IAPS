@@ -11,7 +11,7 @@ Online logbook for the detector operations. Click any entry under **Logs** to re
 ## ℹ️ Notes
 - README.md is directly rendered as webpage.
 - All files in `logs/` are directly rendered as webpages.
-- CI checks Jupyter Scripts.
+- CI checks Jupyter Scripts and Deploy them.
 ## 📁 Directories
 
 - [logs/](logs/)
