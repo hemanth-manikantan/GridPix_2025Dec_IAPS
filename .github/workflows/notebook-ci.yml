@@ -1,6 +1,6 @@
 # .github/workflows/notebook-ci.yml
 #tests listed .ipynb s runs without errors
-name: Test Jupyter Notebooks
+name: Run JN
 
 on:
   push:

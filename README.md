@@ -6,12 +6,11 @@ Online logbook for the detector operations. Click any entry under **Logs** to re
 
 ## 📅 Logs
 - [2025-12-05 LV DAQ, HV Connections test](logs/2025-12-05.md)
-- [2025-12-04 First LV Setup](logs/2025-12-04_sess1_electronics_tests.md)
+- [2025-12-04 First LV Setup](logs/2025-12-04.md)
 
 ## ℹ️ Notes
 - README.md is directly rendered as webpage.
-- All files in `logs/` are directly rendered as webpages.
-- CI checks Jupyter Scripts and Deploy them.
+
 ## 📁 Directories
 
 - [logs/](logs/)
