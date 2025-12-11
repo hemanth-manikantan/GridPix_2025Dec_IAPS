@@ -5,6 +5,7 @@
 Online logbook for the detector operations. Click any entry under **Logs** to read the details.
 
 ## 📅 Logs
+- [2025-12-10: tpx3_monitor fail](logs/2025-12-10.md)
 - [2025-12-09: Cathode Swap, Orange facility setup](logs/2025-12-09.md)
 - [2025-12-05: LV DAQ, HV Connections test](logs/2025-12-05.md)
 - [2025-12-04: First LV Setup](logs/2025-12-04.md)
