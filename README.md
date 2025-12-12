@@ -5,13 +5,15 @@
 Online logbook for the detector operations. Click any entry under **Logs** to read the details.
 
 ## 📅 Logs
+- [2025-12-12: First HV on, Data aquistion with 55Fe](logs/2025-12-12.md)
+- [2025-12-11: TPLScans for vtpC,vtpF](logs/2025-12-11.md)
 - [2025-12-10: tpx3_monitor fail](logs/2025-12-10.md)
 - [2025-12-09: Cathode Swap, Orange facility setup](logs/2025-12-09.md)
 - [2025-12-05: LV DAQ, HV Connections test](logs/2025-12-05.md)
 - [2025-12-04: First LV Setup](logs/2025-12-04.md)
 
 ## ℹ️ Notes
-- README.md is directly rendered as webpage.
+- README.md is rendered as webpage.
 
 ## 📁 Directories
 
