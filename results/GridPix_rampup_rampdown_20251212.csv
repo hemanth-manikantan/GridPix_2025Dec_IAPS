@@ -1,0 +1,35 @@
+Vgrid (CH-3),Vanode (CH-2),Vcathode (CH-1),Note
+0,0,50,Step of 50 V
+50,50,100,
+100,100,150,
+150,150,200,
+200,200,250,
+250,250,300,
+275,275,325,Step of 25 V
+300,300,350,
+325,325,375,"Start monitor, increase drift to about 800-1000 V/cm"
+325,325,425,Step of 50 V
+325,325,475,
+325,325,525,
+325,325,575,
+325,325,625,
+325,325,675,
+325,325,725,Source seen here
+325,325,775,
+325,325,825,
+325,325,875,
+325,325,925,
+325,325,975,
+325,325,1025,
+325,325,1075,
+325,325,1125,
+325,325,1175,
+325,325,1225,
+325,325,1275,
+325,325,1325,"Drift field is 500 V/cm, Should see events from here, 2-3 min data and analyzed it."
+335,335,1325,"Data acquired during transition from previous to next setting."
+345,345,1325,"We arrived here, Data acquired 5 min at this setting. HV turned off in reverse order."
+355,355,1325,
+365,365,1325,
+375,375,1325,
+385,385,1325,"Keep grid Voltage fixed and increase anode"
