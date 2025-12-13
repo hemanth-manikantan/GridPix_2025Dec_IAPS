@@ -2,7 +2,7 @@
 [![Notebook CI](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/notebook-ci.yml/badge.svg)](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/notebook-ci.yml)
 [![Notebook Deploy](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/deploy-book.yml/badge.svg)](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/deploy-book.yml)
 
-Online logbook for the detector operations. Click any entry under **Logs** to read the details.
+Online logbook for the detector operations. Click any entry under **Logs** to read the details. View [manual HV Ramp-up & Ramp-down Schema](/scripts/ramp_schema.md)
 
 ## 📅 Logs
 - [2025-12-12: First HV on, Data aquisition with 55Fe 5.89 keV](logs/2025-12-12.md)
