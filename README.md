@@ -5,8 +5,8 @@
 Online logbook for the detector operations. Click any entry under **Logs** to read the details. View [manual HV Ramp-up & Ramp-down Schema](/scripts/ramp_schema.md)
 
 ## 📅 Logs
-- [2025-12-17: Noise investigation continued and Ramp up to Grid 355 V with 55 Fe 5.89 keV](logs/2025-12-18.md)
-- [2025-12-17: Noise investigation](logs/2025-12-18.md)
+- [2025-12-19: Noise investigation continued and Ramp up to Grid 355 V with 55 Fe 5.89 keV](logs/2025-12-18.md)
+- [2025-12-18: Noise investigation](logs/2025-12-18.md)
 - [2025-12-17: Flat field Cu tube and height block setup](logs/2025-12-17.md)
 - [2025-12-12: First HV on, Data acquisition with 55Fe 5.89 keV](logs/2025-12-12.md)
 - [2025-12-11: TPLScans for vtpC,vtpF](logs/2025-12-11.md)
