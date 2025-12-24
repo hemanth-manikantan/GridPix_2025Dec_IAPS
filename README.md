@@ -2,7 +2,7 @@
 [![Notebook CI](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/notebook-ci.yml/badge.svg)](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/notebook-ci.yml)
 [![Notebook Deploy](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/deploy-book.yml/badge.svg)](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/deploy-book.yml)
 
-Online logbook for the detector operations. Click any entry under **Logs** to read the details. View [manual HV Ramp-up & Ramp-down Schema](/scripts/ramp_schema.md). [Data Log](../GridPix_2025Dec_IAPS/logs/PrimaryDataSets.csv)
+Online logbook for the detector operations. Click any entry under **Logs** to read the details. View [manual HV Ramp-up & Ramp-down Schema](/scripts/ramp_schema.md). [Data Log](/logs/PrimaryDataSets.csv)
 
 ## 📅 Logs
 - [2025-12-23: Ramp up to Grid/Anode/Cathode 410/460/2460 V with unpolarized 8 keV FF, polarized 8.7 keV and 17.4 keV]
