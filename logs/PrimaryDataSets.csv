@@ -1,6 +1,6 @@
 Filename, Duration(s), Size(GB), THL, Grid(V), Anode(V), Cathode(V), TubeAnode, LineE(keV), TubeAnodeVC(kV), TubeAnodeVF(V), TubeAnodeI(mA), TubeFilter(s), TubeNotes, BraggCrystal, BraggCrystalFilter(s), BraggNotes, DirectionEps(deg), Remarks
 DataTake_2025-12-22_15-54-37, 2*60, , 1360, 415, 415, 1325, 55Fe, 5.89, , , , , FFU?, , , , ,
-DataTake_2025-12-22_15-57-18, 2*60, , 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FF?|increased gain, , , , , ,
+DataTake_2025-12-22_15-57-18, 2*60, , 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FF?|increased gain, , , , ,
 DataTake_2025-12-22_16-58-40, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0, Smeared Line
 DataTake_2025-12-22_17-13-46, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0, Smeared Line
 DataTake_2025-12-22_17-28-59, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0, Smeared Line
