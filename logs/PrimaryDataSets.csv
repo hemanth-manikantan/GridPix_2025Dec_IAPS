@@ -1,15 +1,15 @@
 Filename, Duration(s), Size(GB), THL, Grid(V), Anode(V), Cathode(V), TubeAnode, LineE(keV), TubeAnodeVC(kV), TubeAnodeVF(V), TubeAnodeI(mA), TubeFilter(s), TubeNotes, BraggCrystal, BraggCrystalFilter(s), BraggNotes, DirectionEps(deg), Remarks
-DataTake_2025-12-22_15-54-37, 2*60, , 1360, 415, 415, 1325, 55Fe, 5.89, , , , , FFU?, , , , ,
-DataTake_2025-12-22_15-57-18, 2*60, , 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FF?|increased gain, , , , ,
-DataTake_2025-12-22_16-58-40, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0, Smeared Line
-DataTake_2025-12-22_17-13-46, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0, Smeared Line
-DataTake_2025-12-22_17-28-59, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0, Smeared Line
-DataTake_2025-12-23_15-21-48, 5*60, 1.1, 1360, 420?, 425?, 2425?, 55Fe, 5.89, , , FF?, , , , , , ,
-DataTake_2025-12-23_15-41-53, 5*60, 1.0, 1360, 420?, 425?, 2425?, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFU, , , , 0,Smeared Line
+DataTake_2025-12-22_15-54-37, 2*60, , 1360, 415, 415, 1325, 55Fe, 5.89, , , , , FFUp?, , , , ,
+DataTake_2025-12-22_15-57-18, 2*60, , 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FFUp?|increased gain, , , , ,
+DataTake_2025-12-22_16-58-40, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFUp, , , , 0, Smeared Line
+DataTake_2025-12-22_17-13-46, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFUp, , , , 0, Smeared Line
+DataTake_2025-12-22_17-28-59, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFUp, , , , 0, Smeared Line
+DataTake_2025-12-23_15-21-48, 5*60, 1.1, 1360, 420?, 425?, 2425?, 55Fe, 5.89, , , , , FFUp?, , , , ,
+DataTake_2025-12-23_15-41-53, 5*60, 1.0, 1360, 420?, 425?, 2425?, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFUp, , , , 0,Smeared Line
 DataTake_2025-12-24_16-34-18, 3*60, 0.7, 1360, 410, 510, 2510, 55Fe, 5.89, , , FF?, , , , , , ,
-DataTake_2025-12-24_16-40-11, 3*60, 0.2, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUP, , , ,0, "Main and Escape peaks visible 600 cts/s"
-DataTake_2025-12-24_16-43-42, 15*60, 0.8, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUP, , , ,0,
-DataTake_2025-12-24_17-10-17, 3*60, 0.2, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUP, , , ,-90, "Main and Escape peaks visible 600 cts/s"
-DataTake_2025-12-24_17-13-24, 15*60, 0.8, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUP, , , ,-90, 
-DataTake_2025-12-24_17-34-51, 3*60, 0.2, 1360, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUP, , , ,-90, "Main and Escape peaks visible 600 cts/s"
-DataTake_2025-12-24_17-38-00, 15*60, 0.8, 1360, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUP, , , ,-90,
+DataTake_2025-12-24_16-40-11, 3*60, 0.2, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0, "Main and Escape peaks visible 600 cts/s"
+DataTake_2025-12-24_16-43-42, 15*60, 0.8, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0,
+DataTake_2025-12-24_17-10-17, 3*60, 0.2, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90, "Main and Escape peaks visible 600 cts/s"
+DataTake_2025-12-24_17-13-24, 15*60, 0.8, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90, 
+DataTake_2025-12-24_17-34-51, 3*60, 0.2, 1360, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90, "Main and Escape peaks visible 600 cts/s"
+DataTake_2025-12-24_17-38-00, 15*60, 0.8, 1360, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90,
