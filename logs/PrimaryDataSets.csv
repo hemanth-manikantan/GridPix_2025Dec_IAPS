@@ -1,4 +1,14 @@
 Filename, Duration(s), Size(GB), THL, Grid(V), Anode(V), Cathode(V), TubeAnode, LineE(keV), TubeAnodeVC(kV), TubeAnodeVF(V), TubeAnodeI(mA), TubeFilter(s), TubeNotes, BraggCrystal, BraggCrystalFilter(s), BraggNotes, DirectionEps(deg), Remarks
+DataTake_2025-12-22_15-44-02, 40, 0.1, 1360, 415, 415, 1325, 55Fe, 5.89, , , , , FFUp?, , , , , "4000 cts/s. Main and Escape peaks visible"
+DataTake_2025-12-22_15-54-37, n*60, 0.4, 1360, 415, 415, 1325, 55Fe, 5.89, , , , , FFUp?, , , , , 
+DataTake_2025-12-22_15-57-18, 50, 0.1, 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FFUp?, , , , , "4000 cts/s. Main and Escape peaks visible"
+DataTake_2025-12-22_15-57-57, n*60, 0.9, 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FFUp?, , , , ,
+DataTake_2025-12-22_16-09-24, 2*60, 0.01, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -15.8, ?, Cu200um, FFUp, , , , 0, "Diaphragm spot, 130 cts/s, Off-->On"
+DataTake_2025-12-22_16-11-30, 4*60, 0.02, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -15.8, ?, Cu200um, FFUp, , , , 0, "Diaphragm spot, 130 cts/s, On-->Off"
+DataTake_2025-12-22_16-53-34, 20, 0.4, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
+DataTake_2025-12-22_16-58-40, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0, "2900 cts/s, Smeared line"
+DataTake_2025-12-22_17-13-46, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
+DataTake_2025-12-22_17-28-59, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
 DataTake_2025-12-22_15-54-37, 2*60, , 1360, 415, 415, 1325, 55Fe, 5.89, , , , , FFUp?, , , , ,
 DataTake_2025-12-22_15-57-18, 2*60, , 1360, 420, 425, 1400, 55Fe, 5.89, , , , , FFUp?|increased gain, , , , ,
 DataTake_2025-12-22_16-58-40, 15*60, 2.1, 1360, 420, 425, 1400, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0, Smeared Line
