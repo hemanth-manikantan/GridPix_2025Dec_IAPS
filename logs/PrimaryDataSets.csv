@@ -10,8 +10,16 @@ DataTake_2025-12-23_15-41-10, 30, 0.08, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 
 DataTake_2025-12-23_15-41-53, 5*60, 0.8, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,Smeared Line
 DataTake_2025-12-23_15-46-59, 15*60, 2.6, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
 DataTake_2025-12-23_16-02-30, 15*60, 2.6, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
-DataTake_2025-12-23_15-21-48, 5*60, 1.1, 1360, 420?, 425?, 2425?, 55Fe, 5.89, , , , , FFUp?, , , , ,
-DataTake_2025-12-23_15-41-53, 5*60, 1.0, 1360, 420?, 425?, 2425?, HamamatsuCu, 8, 12, -20.5, ?, Cu200um, FFUp, , , , 0,Smeared Line
+DataTake_2025-12-23_15-21-48, 5*60, 1.1, 1360, 410, 460, 2460, 55Fe, 5.89, , , , , FFUp?, , , , ,
+DataTake_2025-12-23_15-41-53, 5*60, 1.0, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,Smeared Line
+DataTake_2025-12-23_15-46-59, 15*60, 2.6, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
+DataTake_2025-12-23_16-02-30, 15*60, 2.6, 1360, 410, 460, 2460, HamamatsuCu, 8.7, 12, -20.5, ?, Cu200um, FFUp, , , , 0,
+DataTake_2025-12-23_17-06-06, 15*60, 0.2, 1360, 410, 460, 2460, OxfordMo50W, 8.7, 20, NA, 1.0, NA, SpotP, LiF, Cu200um?, , 0, "130 cts/s, Main and Escape peaks visible"
+DataTake_2025-12-23_17-21-50, 15*60, 0.2, 1360, 410, 460, 2460, OxfordMo50W, 8.7, 20, NA, 1.0, NA, SpotP, LiF, Cu200um?, , 0,
+DataTake_2025-12-23_18-40-58, 45*60, 0.2, 1360, 410, 460, 2460, OxfordMo50W, 17.4, 35, NA, 1.0, NA, SpotP, LiF, CuZr200um?, , 0, "17 cts/s"
+DataTake_2025-12-23_19-34-33, 45*60, 0.2, 1360, 410, 510, 2510, OxfordMo50W, 17.4, 35, NA, 1.0, NA, SpotP, LiF, CuZr200um?, , 0, "Anode-Grid at 100 V difference"
+DataTake_2025-12-23_20-26-29, 15*60, 0.1, 1360, 410, 510, 2510, OxfordMo50W, 8.7, 20, NA, 1.0, NA, SpotP, LiF, Cu200um?, , 0,
+DataTake_2025-12-23_20-46-59, 15*60, 0.2, 1360, 410, 510, 2510, OxfordMo50W, 8.7, 20, NA, 1.0, NA, SpotP, LiF, Cu200um?, , 0, "130 cts/s. Main and Escape peaks visible"
 DataTake_2025-12-24_16-34-18, 3*60, 0.7, 1340, 410, 510, 2510, 55Fe, 5.89, , , FF?, , , , , , ,
 DataTake_2025-12-24_16-40-11, 3*60, 0.2, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0, "Main and Escape peaks visible 600 cts/s"
 DataTake_2025-12-24_16-43-42, 15*60, 0.8, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0,
@@ -19,3 +27,15 @@ DataTake_2025-12-24_17-10-17, 3*60, 0.2, 1340, 410, 510, 2510, OxfordMo50W, 17.4
 DataTake_2025-12-24_17-13-24, 15*60, 0.8, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90, 
 DataTake_2025-12-24_17-34-51, 3*60, 0.2, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90, "Main and Escape peaks visible 600 cts/s"
 DataTake_2025-12-24_17-38-00, 15*60, 0.8, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,-90,
+DataTake_2025-12-26_16-03-43, 3*60, 0.6, 1340, 410, 460, 2460, 55Fe, 5.89, , , , , FFUp?, , , , 0, "5400 cts/s"
+DataTake_2025-12-26_16-10-55, 3*60, 0.1, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0, "480 cts/s"
+DataTake_2025-12-26_16-14-13, 8*60, 0.4, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0,  "DME flow fell to ~30 ccpm from 40 ccpm; data acquisition stopped and resumed after recovery. 1 MIP"
+DataTake_2025-12-26_16-22-50, 15*60, 0.7, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.002, CuZr200um?, FFUp, , , ,0, 
+DataTake_2025-12-26_16-38-57, 2*60, 0.7, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,0, "Double tube current 1100 cts/s. Main and Escape peaks visible."
+DataTake_2025-12-26_16-41-03, 15*60, 1.5, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,0,
+DataTake_2025-12-26_17-00-15, 2*60, 0.2, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,0, "1200 cts/s. Main and Escape peaks visible."
+DataTake_2025-12-26_17-02-21, 15*60, 1.6, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,0,
+DataTake_2025-12-26_17-25-41, 2*60, 0.2, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,-90, "1200 cts/s. Main and Escape peaks visible."
+DataTake_2025-12-26_17-27-48, 15*60, 1.6, 1340, 410, 510, 2510, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,-90,
+DataTake_2025-12-26_17-46-58, 2*60, 0.2, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,-90, "1100 cts/s. Main and Escape peaks visible."
+DataTake_2025-12-26_17-49-06, 15*60, 1.6, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 30.5, NA, 0.004, CuZr200um?, FFUp, , , ,-90,
