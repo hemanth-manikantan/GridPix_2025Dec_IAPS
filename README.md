@@ -2,12 +2,15 @@
 [![Notebook CI](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/notebook-ci.yml/badge.svg)](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/notebook-ci.yml)
 [![Notebook Deploy](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/deploy-book.yml/badge.svg)](https://github.com/hemanth-manikantan/GridPix_2025Dec_IAPS/actions/workflows/deploy-book.yml)
 
-Online logbook for the detector operations. Click any entry under **Logs** to read the details. View [manual HV Ramp-up & Ramp-down Schema](/scripts/ramp_schema.md). [Data Log](/logs/PrimaryDataSets.csv)
+Online logbook for the detector operations. Click any entry under **Logs** to read the details. View [Data Log](/logs/PrimaryDataSets.csv) for details of acquired data against file name. These data files have been uploaded to PolTIMEPIX Google Drive folder.
 
-## 📅 Logs
+The data sets were acquired at two Threshold level batches, first batch at THL 1360 (910 e-) and second batch at THL 1340 (653 e-). These translates to chances of ~22% and ~37% on missing a single electron avalanche signal at Grid voltage of 410 V (gas gain ~1500).
+
+## 📅 Operation Logs
+- [2025:12-27: Failed 8.05 keV FFUp eps=0 at Grid/Anode/Cathode 410/510/2510, 55Fe long acquisition](/logs/2025-12-27.md)
 - [2025-12-26: 17.4 keV FFUp eps=0,-90 at Grid/Anode/Cathode 410/460/2460 and 410/510/2510](/logs/2025-12-26.md)
-- [2025-12:24: 17.4 keV FFUp eps=0,-90 at Grid/Anode/Cathode 410/460/2460 and 410/510/2510](/logs/2025-12-24.md)
-- [2025-12-23: Ramp up to Grid/Anode/Cathode 410/460/2460 and 410/510/2510 V with unpolarized 8 keV FF (only 410/460/2460), polarized 8.7 keV and 17.4 keV](logs/2025-12-23.md)
+- [2025-12:24: 17.4 keV FFUp eps=0,-90 at Grid/Anode/Cathode 410/460/2460 and 410/510/2510. Threshold lowered to 653 e (DAC 1340) here on.](/logs/2025-12-24.md)
+- [2025-12-23: 8.7 keV and 17.4 keV Polarized Spot at Grid/Anode/Cathode 410/460/2460 V. 8.05 keV FF at 410/460/2460 V](logs/2025-12-23.md)
 - [2025-12-22: Ramp up to Grid/Anode/Cathode 420/425/1400 V with unpolarized 8 keV flat-field from Cu Tube](logs/2025-12-22.md)
 - [2025-12-19: Noise investigation continued and Ramp up to Grid 385 V with 55 Fe 5.89 keV](logs/2025-12-19.md)
 - [2025-12-18: Noise investigation](logs/2025-12-18.md)
