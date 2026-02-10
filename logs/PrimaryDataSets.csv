@@ -52,8 +52,8 @@ DataTake_2025-12-26_17-49-06, 15*60, 1.6, 1340, 410, 460, 2460, OxfordMo50W, 17.
 DataTake_2025-12-27_11-04-54, 30, 0.06, 1340, 410, 510, 2510, 55Fe, 5.89, , , , , FFUp?, , , , 0, "6200 cts/s. Main and Escape peaks visible"
 DataTake_2025-12-27_11-05-37, 5*60, 1.1, 1340, 410, 510, 2510, 55Fe, 5.89, , , , , FFUp?, , , , 0,
 DataTake_2025-12-27_11-30-20, 14*60, 3.4, 1340, 410, 510, 2510, 55Fe, 5.89, , , , , FFUp?, , , , 0,
-DataTake_2026-02-10_10-37-21, 5*60, 1.1, 1340, 410, 510, 2510, 55Fe, 5.89, , , , , FFUp?, , , , 0, "5838 cts/s, spectrum shows double peak within main peak, lcurve unstable, time dependent gain variation?"
+DataTake_2026-02-10_10-37-21, 5*60, 1.1, 1340, 410, 510, 2510, 55Fe, 5.89, , , , , FFUp?, , , , 0, "5838 cts/s, spectrum shows double peak within main peak, lcurve unstable, time dependent gain variation suspected"
 DataTake_2026-02-10_10-45-32, 3*60, 0.2, 1340, 410, 510, 2510, HamamatsuCu, 8.05, 12.1, -20.9, ?, Cu200um, FFUp, , , , 0, "1692 cts/s, smeared line"
-DataTake_2026-02-10_10-49-12, 30*60, 2.5, 1340, 410, 510, 2510, HamamatsuCu, 8.05, 12.1, -20.9, ?, Cu200um, FFUp, , , , 0, "lcurve unstable 1700 to 1900 cts/s, single broad line" 
+DataTake_2026-02-10_10-49-12, 30*60, 2.5, 1340, 410, 510, 2510, HamamatsuCu, 8.05, 12.1, -20.9, ?, Cu200um, FFUp, , , , 0, "lcurve unstable 1700 --> 1900 cts/s, single broad line"
 DataTake_2026-02-10_11-19-51, 3*60, 0.6, 1340, 410, 510, 2510, HamamatsuCu, 8.05, 12.1, -20.5, ?, Cu200um, FFUp, , , , 0, "4600 cts/s, smeared line"
 DataTake_2026-02-10_11-23-00, 15*60, 3.0, 1340, 410, 510, 2510, HamamatsuCu, 8.05, 12.1, -20.5, ?, Cu200um, FFUp, , , , 0,
