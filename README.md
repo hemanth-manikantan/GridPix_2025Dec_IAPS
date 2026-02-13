@@ -7,6 +7,8 @@ Online logbook for the detector operations. Click any entry under **Logs** to re
 The data sets were acquired at two Threshold level batches, first batch at THL 1360 (910 e-) and second batch at THL 1340 (653 e-). These translates to chances of ~22% and ~37% on missing a single electron avalanche signal at Grid voltage of 410 V (gas gain ~1500). 55Fe source AN-7258.
 
 ## 📅 Operation Logs
+- [2026-02-13: 17.4 keV Poalrized Spot at eps=+45 deg at Grid/Anode/Cathode 410/510/2510 V](/logs/2026-02-13.md)
+- [2026-02-12: 8.7 keV Polarized Spot at eps=+45 deg at Grid/Anode/Cathode 410/460/2460 V and 410/510/2510 V](/logs/2026-02-12.md)
 - [2026-02-10: 8.05 keV FFUp eps=0 at Grid/Anode/Cathode 410/510/2510, time-dependent gain?](/logs/2026-02-10.md)
 - [2026-02-09: Failed 8.05 keV FFUp eps=0 at Grid/Anode/Cathode 410/510/2510, DME cylinder replaced](/logs/2026-02-09.md)
 - [2025:12-27: Failed 8.05 keV FFUp eps=0 at Grid/Anode/Cathode 410/510/2510, 55Fe long acquisition](/logs/2025-12-27.md)
