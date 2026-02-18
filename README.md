@@ -7,6 +7,7 @@ Online logbook for the detector operations. Click any entry under **Logs** to re
 The data sets were acquired at two Threshold level batches, first batch at THL 1360 (910 e-) and second batch at THL 1340 (653 e-). These translates to chances of ~22% and ~37% on missing a single electron avalanche signal at Grid voltage of 410 V (gas gain ~1500). 55Fe source AN-7258.
 
 ## 📅 Operation Logs
+- [2026-02-18: 8.7 keV Polarized Inclined line *Source Inclined 20 deg CW* at eps=0 at 410/460/2460 V. Third peak in spectra other than Main and Escape.](/logs/2026-02-18.md)
 - [2026-02-16: 17.4 keV Polarized Spot at eps=+45 deg at Grid/Anode/Cathode 410/460/2460 V. HV CH1 failure during ramp down.](/logs/2026-02-13.md)
 - [2026-02-13: 17.4 keV Polarized Spot at eps=+45 deg at Grid/Anode/Cathode 410/510/2510 V](/logs/2026-02-13.md)
 - [2026-02-12: 8.7 keV Polarized Spot at eps=+45 deg at Grid/Anode/Cathode 410/460/2460 V and 410/510/2510 V](/logs/2026-02-12.md)

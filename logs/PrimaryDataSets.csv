@@ -66,3 +66,6 @@ DataTake_2026-02-13_11-04-04, 30*60, 0.1, 1340, 410, 510, 2510, OxfordMo50W, 17.
 DataTake_2026-02-16_15-33-38, 3*60, 0.7, 1340, 410, 460, 2460, 55Fe, 5.89, , , , , FFUp?, , , , +45, "5100 cts/s, Main and Escape peaks visible"
 DataTake_2026-02-16_15-45-17, 3*60, 0.001, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 35, NA, 1.0, NA, SpotP, LiF800, CuZr200um, , +45, "Beam Alignment data, 14 cts/s, Main and Escape peaks visible, Ghost reducing with time?"
 DataTake_2026-02-16_15-48-27, 45*60, 0.1, 1340, 410, 460, 2460, OxfordMo50W, 17.4, 35, NA, 1.0, NA, SpotP, LiF800, CuZr200um, , +45, "15 cts/s, main and escape peaks visible, ghost reduces with time. Ghost vs AC?"
+DataTake_2026-02-18_17-45-46, 3*60, 0.7, 1340, 410, 460, 2460, 55Fe, 5.89, , , , , FFUp?, , , , -90, "5600 cts/s, Main, Escape and a third peak at 2x main peak TOTsum visible"
+DataTake_2026-02-18_18-04-53, 3*60, 0.7, 1340, 410, 460, 2460, 55Fe, 5.89, , , , , FFUp?, , , , -90, "5600 cts/s, Main, Escape visible. Third peak at 2x main peak TOTsum dropped to about 10 cts/s from 1000 cts/s"
+DataTake_2026-02-18_19-02-19, 16*60, 0.3, 1340, 410, 460, 2460, OxfordMo50W, 8.7, 20, NA, 1.0, NA, LineP, LiF800, Cu200um, inclination20deg, 0, "285 cts/s, Spectrum shows a main+escape complex and a broad third hump  at 2-3x main peak"
